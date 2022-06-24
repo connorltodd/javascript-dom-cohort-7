@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <ul>
+        <li class="navbar-links">Home</li>
+        <li class="navbar-links">About</li>
+        <li class="navbar-links">Contact</li>
+    </ul>
+    <button onclick="navbarLinksColourHandler()">Change Navbar Link Colours</button>
+
+    <h1 id="website-title">Welcome to our website</h1>
+
+    <h2>Search for your favourite movie</h2>
+    <input id="movieSearchInput" placeholder="search for your movie" />
+    <p id="userSearchResponse"></p>
+
+    <button id="menu-button">Handle Menu Display</button>
+    <div id="menu-section">
+        <h1>Menu</h1>
+        <p>Todays special is...</p>
+    </div>
+
+
+    <h2>Gallery</h2>
+    <img class="gallery-image" src="https://images.unsplash.com/photo-1655667995118-56d57c6f628e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1914&q=80" />
+    <br>
+    <button onclick="galleryImageHandler()">Move to next image</button>
+    <script src="index.js"></script>
+</body>
+</html>
